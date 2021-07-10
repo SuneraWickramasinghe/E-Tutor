@@ -31,7 +31,7 @@ const Navbar = () => {
 
     return (
 
-        <nav className="navbar">
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
             <div className="navbar-brand">
                 <Link to="/">
                     <img src={logo} className="rounded float-left" alt="eTutor" width="50%" />
