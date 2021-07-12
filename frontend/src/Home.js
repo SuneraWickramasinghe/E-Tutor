@@ -117,6 +117,16 @@ const Home = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim ultrices neque ullamcorper malesuada. Duis scelerisque tristique molestie. Nam viverra ornare magna,
                 </div>
             </div>
+            <div className="relative4">
+                <div className="absolute41">
+                    <h1 className="center6">Top Courses</h1>
+                </div>
+                <div className="absolute41">
+                    <h1 className="center7">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim ultrices neque ullamcorper malesuada. Duis scelerisque tristique molestie. Nam viverra ornare magna,
+                    </h1>
+                </div>
+            </div>
         </div>
 
     );

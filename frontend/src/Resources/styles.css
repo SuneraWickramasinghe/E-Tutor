@@ -10,6 +10,7 @@
 
 .navbar .links {
   color: rgb(255, 255, 255);
+  text-shadow: rgba(0, 0, 0, 0.41);
   margin-left: auto;
 }
 
@@ -42,13 +43,13 @@
 
 @media (min-width: 800px) and (max-width: 850px) {
   .navbar:not(.top-nav-collapse) {
-      background: rgba(0,0,0,0.5)!important;
+      background: rgba(0,0,0,0.8)!important;
   }
 }
 .view,
 body,
 html{height:100%}
-.navbar{background-color:rgba(0,0,0,.5)}
+.navbar{background-color:rgba(0,0,0,.8)}
 .page-footer,
 .top-nav-collapse{
   color: rgb(255, 255, 255);
@@ -58,6 +59,7 @@ html{height:100%}
 @media only screen and (max-width:768px){
 .navbar{
   color: rgb(255, 255, 255);
+  text-shadow: rgba(0, 0, 0, 0.41);
   background-color:#1C2331}
 }
 
@@ -82,6 +84,7 @@ html{height:100%}
 
 .navbar a {
   color: rgb(255, 255, 255);
+  text-shadow: rgba(0, 0, 0, 0.41);
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
@@ -92,6 +95,7 @@ html{height:100%}
 .navbar a:hover {
   color: #000000;
   background-color: rgba(255,255,255,0.5);
+  text-shadow: rgba(0, 0, 0, 0.41);
   border-radius: 3rem;
   font-weight: bold;
   text-decoration: none;
@@ -99,6 +103,7 @@ html{height:100%}
 
 .relative {
   position: relative;
+  filter: contrast(130%);
   width: 100%;
   height: 100%;
 }
@@ -126,6 +131,8 @@ font-style: normal;
 font-weight: bolder;
 font-size: 84px;
 line-height: 109.5%;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.41);
+
 /* or 92px */
 
 display: flex;
@@ -147,6 +154,8 @@ font-style: normal;
 font-weight: 400;
 font-size: 26px;
 line-height: 39px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.41);
+
 /* identical to box height */
 
 display: flex;
@@ -350,7 +359,7 @@ color: #000000;
   position: absolute;
 width: 516px;
 height: 184px;
-left: 786px;
+left: 806px;
 top: 200px;
 
 font-family: Poppins;
@@ -358,6 +367,7 @@ font-style: normal;
 font-weight: bolder;
 font-size: 84px;
 line-height: 109.5%;
+text-shadow: 2px 2px 4px #000000;
 /* or 92px */
 
 display: flex;
@@ -371,13 +381,14 @@ color: #ffffff;
   position: absolute;
 width: 505px;
 height: 39px;
-left: 790px;
+left: 810px;
 top: 409px;
 
 font-family: Poppins;
 font-style: normal;
 font-weight: 400;
 font-size: 26px;
+text-shadow: 2px 2px 4px #000000;
 line-height: 39px;
 /* identical to box height */
 
@@ -454,6 +465,50 @@ color: #ffffff;
   left: 0;
   top: 0;
   color: rgb(0, 0, 0);
+}
+
+.relative4 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  filter: contrast(150%);
+}
+
+.absolute41{
+  position: relative;
+  background-color: #ffffff;
+  width: 100%;
+  height: 200px;
+  left: 0;
+  top: 0;
+  color: rgb(0, 0, 0);
+}
+
+.center6 {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 600;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center7 {
+  margin: 0;
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  top: 30%;
+  left: 50%;
+  margin-bottom: 200px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .authForm {
